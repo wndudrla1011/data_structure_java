@@ -6,6 +6,9 @@
 - ### Queue (by Array and LinkedList)
 - ### Deque (by Array and LinkedList)
 
+## 📌 비선형 자료구조
+- ### Heap
+
 ## 📌 References
 
 - https://freestrokes.tistory.com/84
@@ -16,3 +19,4 @@
 - https://st-lab.tistory.com/184
 - https://st-lab.tistory.com/185
 - https://st-lab.tistory.com/187
+- https://st-lab.tistory.com/205
