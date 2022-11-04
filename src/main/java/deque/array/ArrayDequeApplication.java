@@ -1,4 +1,4 @@
-package deque;
+package deque.array;
 
 public class ArrayDequeApplication {
 

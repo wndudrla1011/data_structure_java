@@ -1,4 +1,4 @@
-package deque;
+package deque.array;
 
 import interface_form.QueueInterface;
 

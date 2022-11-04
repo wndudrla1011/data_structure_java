@@ -4,6 +4,7 @@
 - ### LinkedList
 - ### Stack
 - ### Queue (by Array and LinkedList)
+- ### Deque (by Array and LinkedList)
 
 ## 📌 References
 
@@ -13,3 +14,5 @@
 - https://st-lab.tistory.com/181
 - https://st-lab.tistory.com/183
 - https://st-lab.tistory.com/184
+- https://st-lab.tistory.com/185
+- https://st-lab.tistory.com/187
