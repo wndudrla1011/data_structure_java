@@ -40,24 +40,24 @@ public class LinkedListDequeApplication {
 
     }
 
-}
+    static class Coffee {
 
-class Coffee {
+        String name;
+        int price;
 
-    String name;
-    int price;
+        public Coffee(String name, int price) {
+            this.name = name;
+            this.price = price;
+        }
 
-    public Coffee(String name, int price) {
-        this.name = name;
-        this.price = price;
-    }
+        @Override
+        public String toString() {
+            return "Coffee{" +
+                    "name='" + name + '\'' +
+                    ", price=" + price +
+                    '}';
+        }
 
-    @Override
-    public String toString() {
-        return "Coffee{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
     }
 
 }

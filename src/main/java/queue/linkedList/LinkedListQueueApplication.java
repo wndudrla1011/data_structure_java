@@ -30,24 +30,24 @@ public class LinkedListQueueApplication {
 
     }
 
-}
+    static class Character {
 
-class Character {
+        String name;
+        String grade;
 
-    String name;
-    String grade;
+        public Character(String name, String grade) {
+            this.name = name;
+            this.grade = grade;
+        }
 
-    public Character(String name, String grade) {
-        this.name = name;
-        this.grade = grade;
-    }
+        @Override
+        public String toString() {
+            return "Character{" +
+                    "name='" + name + '\'' +
+                    ", grade='" + grade + '\'' +
+                    '}';
+        }
 
-    @Override
-    public String toString() {
-        return "Character{" +
-                "name='" + name + '\'' +
-                ", grade='" + grade + '\'' +
-                '}';
     }
 
 }
