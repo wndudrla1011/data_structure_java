@@ -5,6 +5,7 @@
 - ### Stack
 - ### Queue (by Array and LinkedList)
 - ### Deque (by Array and LinkedList)
+- ### Priority Queue
 
 ## 📌 비선형 자료구조
 - ### Heap
@@ -20,3 +21,4 @@
 - https://st-lab.tistory.com/185
 - https://st-lab.tistory.com/187
 - https://st-lab.tistory.com/205
+- https://st-lab.tistory.com/219
