@@ -2,7 +2,7 @@
 
 ## 📌 선형 자료구조
 - ### ArrayList
-- ### LinkedList
+- ### LinkedList (Singly or Doubly)
 - ### Stack
 - ### Queue (by Array and LinkedList)
 - ### Deque (by Array and LinkedList)
