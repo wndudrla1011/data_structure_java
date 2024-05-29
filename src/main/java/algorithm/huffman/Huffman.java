@@ -4,6 +4,8 @@ import java.util.*;
 
 public class Huffman {
 
+    static Map<String, String> optBits = new HashMap<>();
+
     static class Node {
         char word;
         int freq;
@@ -41,6 +43,12 @@ public class Huffman {
         }
 
         printCompression(pq.peek(), "");
+
+        for (Map.Entry<String, String> entry : optBits.entrySet()) {
+            txt = txt.replaceAll(entry.getKey(), entry.getValue());
+        }
+
+        System.out.println("압축 결과: " + txt);
     }
 
     private static void printCompression(Node node, String comp) {
@@ -48,6 +56,7 @@ public class Huffman {
 
         //리프 노드에 도달한 경우 출력
         if (node.left == null && node.right == null) {
+            optBits.put(node.word + "", comp);
             System.out.println(node.word + "-> " + comp);
         }
 
